@@ -25,5 +25,8 @@
     "hardhat-gas-reporter": "^1.0.4",
     "lodash": "^4.17.20",
     "solidity-coverage": "^0.7.14"
+  },
+  "devDependencies": {
+    "@ethersproject/bignumber": "^5.5.0"
   }
 }
