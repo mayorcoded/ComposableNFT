@@ -1,7 +1,7 @@
 # composable-challenge
 
 # Solution Analysis
-I took the follow steps to solve this test:
+I took the following steps to solve this test:
 - Started out by reading the EIP to understand the architecture of a Composable NFT
 - I spent some time looking at the original implementation, and some more time going through the test to understand how 
   how to interact with the contract
