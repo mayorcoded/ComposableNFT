@@ -1,6 +1,15 @@
 # composable-challenge
+## Task
+The task is to layer on the composability logic from the [EIP-998](https://eips.ethereum.org/EIPS/eip-998) ontop of the 
+pre-existing ERC721 contract in the repo, with a focus on composing an ERC20 token within an NFT, 
+by following the Top Down ERC20 variant of the ERC-998 standard. The objective of this task it to have Composable 
+contract which can perform the following:
+- Mint an NFT and some ERC20 token
+- Compose the minted ERC20 token within an NFT
+- Query the ERC20 token balance for a given NFT
+- Allow addresses only send the tokens that they own
 
-# Solution Analysis
+## Solution Analysis
 I took the following steps to solve this test:
 - Started out by reading the EIP to understand the architecture of a Composable NFT
 - I spent some time looking at the original implementation, and some more time going through the test to understand how 
